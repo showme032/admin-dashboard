@@ -1,0 +1,2 @@
+- add search icon as :before element, to enable blur on selection
+- add sidebar icon svgs inside of link element for styling reasons

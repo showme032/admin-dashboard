@@ -48,7 +48,7 @@ img.avatar {
 
 .main-layout {
   display: grid;
-  grid-template: 180px 1fr / 250px 1fr;
+  grid-template: 180px 1fr / 250px auto;
   /* position: relative; */
   overflow: visible;
   position: relative;
@@ -109,7 +109,7 @@ img.avatar {
   transition: 0.3s;
 
   position: sticky;
-  top: 24px;
+  top: 32px;
 }
 .sidebar-nav:hover {
   transform: scale(99%);
@@ -175,7 +175,7 @@ img.avatar {
   grid-template: 1fr 2fr / 2fr 1fr;
   align-items: center;
 
-  box-shadow: 0 0 15px var(--header-shadow-color),0 3px 6px #3c3c3c60,0 0 10px -10px var(--header-bg-color);
+  box-shadow: 0 0 15px var(--font-color-medium),0 3px 6px #3c3c3c30,0 0 10px -10px var(--header-bg-color);
   z-index: 3;
 
   
@@ -244,6 +244,10 @@ img.avatar {
   justify-content: center;
   align-items: center;
 }
+.notification-icon:hover {
+  transform: scale(105%);
+  transition: 0.3s;
+}
 .notification-bell {
   width: 24px;
   height: 24px;
@@ -253,6 +257,8 @@ img.avatar {
   cursor: pointer;
   fill: var(--font-color-darker);
   animation: ring 1s;
+  filter: drop-shadow(3px 3px 6px #3c3c3c50);
+
 }
 .notification-avatar {
   width: 40px;
@@ -327,14 +333,14 @@ img.avatar {
   transition: transform 0.25s,box-shadow 0.25s;
 }
 .acc-buttons button:hover {
-  transform: scale(96%);
+  transform: scale(105%);
   cursor: pointer;
   transition: 0.25s;
   color: var(--font-color-dark);
   
   p {
     text-shadow: 0 0 10px var(--header-shadow-color), 4px 4px 6px #3c3c3c50;
-    transform: scale(105%);
+    /* transform: scale(105%); */
     transition: 0.25s;
   }
 }
@@ -411,6 +417,7 @@ img.avatar {
   transition: 0.2s;
 }
 .card-icons > svg:hover {
+  filter: drop-shadow(3px 3px 5px #3c3c3c70);
   transform: scale(105%);
   transition: 0.2s;
 }
@@ -528,7 +535,7 @@ img.avatar {
   transition: 0.3s;
 
   img {
-    box-shadow: 3px 3px 6px #C1CCC7, 5px 5px 6px #3c3c3c50;
+    box-shadow: 3px 3px 6px #3c3c3c30, 5px 5px 12px #3c3c3c50;
   }
   p {
     text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;

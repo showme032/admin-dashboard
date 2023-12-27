@@ -139,12 +139,12 @@ img.avatar {
   transition: 0.2s;
   svg {
     fill: var(--font-color-darker);
-    filter: drop-shadow(0 0 15px #EFEEBA);
+    filter: drop-shadow(0 0 15px var(--sidebar-shadow-color));
     filter: drop-shadow(0 5px 6px #3c3c3c80);
   }
   a {
     color: var(--font-color-darker);
-    text-shadow: 0 0 15px #EFEEBA, 0 5px 6px #3c3c3c60;
+    text-shadow: 0 0 15px var(--sidebar-shadow-color), 0 5px 6px var(--sidebar-shadow-color);
   }
 }
 .nav-group li svg {
@@ -176,6 +176,8 @@ img.avatar {
 
   box-shadow: 0 0 15px var(--header-shadow-color),0 3px 6px #3c3c3c60,0 0 10px -10px var(--header-bg-color);
   z-index: 3;
+
+  
 }
 /* SEARCH BAR */
 .search-bar {

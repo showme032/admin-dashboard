@@ -107,13 +107,13 @@ img.avatar {
 .sidebar-nav{
   width: fit-content;
   margin: 21px 0 0 27px;
-  padding: 12px 21px 21px 15px;
+  padding: 21px 21px 21px 15px;
   border-radius: 1.5em;
   box-shadow: -9px -9px 24px var(--sidebar-highlight-color), 9px 9px 24px var(--sidebar-shadow-color);
   transition: 0.3s;
 
   position: sticky;
-  top: 32px;
+  top: -15px;
 }
 .sidebar-nav:hover {
   transform: scale(101%);
@@ -180,9 +180,9 @@ img.avatar {
   grid-template: 1fr 2fr / 2fr 1fr;
   align-items: center;
 
-  border-radius: 0 0 0 1.5em;
+  /* border-radius: 0 0 0 1.5em; */
   box-shadow: 0 0 15px var(--font-color-medium),0 3px 6px #3c3c3c30;
-  z-index: 99;
+  /* z-index: 99; */
 
   
 }
@@ -388,9 +388,10 @@ img.avatar {
   color: var(--font-color-dark);
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
   z-index: 1;
+  transition: 0.3s;
 }
 .project-area > .content-title:hover {
-  transform: scale(101%);
+  transform: scale(102%);
   transition: 0.3s;
   color: var(--font-color-greed);
   cursor: pointer;
@@ -408,7 +409,7 @@ img.avatar {
 /* Cards */
 .card {
   background-color: var(--font-color-light);
-  max-width: 540px;
+  /* max-width: 540px; */
   padding: 24px 24px 12px 24px;
   border-radius: 1.5em;
   display: flex;
@@ -494,7 +495,7 @@ img.avatar {
 .announcements-title:hover {
   color: var(--font-color-greed);
   cursor: pointer;
-  scale: 101%;
+  transform: scale(101%);
   transition: 0.3s;
 }
 .announcement {
@@ -565,11 +566,12 @@ img.avatar {
 
   text-shadow: 0 0 10px #C1CCC7, 6px 6px 6px #3c3c3c50;
   cursor: pointer;
+  transition: 0.3s;
 }
 .trending-title:hover {
   color: var(--font-color-greed);
   cursor: pointer;
-  transform: scale(101%);
+  transform: scale(102%);
   transition: 0.3s;
 }
 .trends {

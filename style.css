@@ -200,17 +200,17 @@ img.avatar {
   filter: drop-shadow(6px 6px 6px #3c3c3c50);
 }
 .search-input {
-  height: 30px;
+  height: 32px;
   width: 90%;
   margin-left: 5px;
-  padding: 0px 9px 2px 39px;
+  padding: 2px 9px 2px 39px;
   border-radius: 15px;
   outline: none;
   color: var(--font-color-dark);
   font-size: 18px;
   overflow: scroll;
 
-  text-shadow: 0 0 10px var(--header-shadow-color), 3px 3px 6px #3c3c3c50;
+  text-shadow: 0 0 10px var(--header-shadow-color), 1px 1px 3px #3c3c3c50;
 
   border: 3px solid var(--header-bg-color);
   box-shadow: -9px -9px 24px #ffffff,9px 9px 24px var(--header-shadow-color),inset 1px 1px 3px var(--header-shadow-color), inset -1px -1px 3px #ffffff;
@@ -409,7 +409,8 @@ img.avatar {
   transition: 0.3s;
 }
 .card > .card-title {
-  padding: 0 0 0 0;
+  padding: 0 15px 0 0;
+  width: fit-content;
   font-weight: 600;
   color: var(--font-color-dark);
 }

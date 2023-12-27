@@ -10,9 +10,12 @@
   --font-color-dark: #373C50;
   --font-color-darker: #232734;
 
-  --sidebar-bg-color: #EFEEBA;
-  --sidebar-shadow-color: #CBCA9E;
-  --sidebar-highlight-color: #FFFFD6;
+  /* --sidebar-bg-color: #EFEEBA; */
+  --sidebar-bg-color: #ECF0F3;
+  /* --sidebar-shadow-color: #CBCA9E; */
+  --sidebar-shadow-color: #C9CCCF;
+  /* --sidebar-highlight-color: #FFFFD6; */
+  --sidebar-highlight-color: #fff;
   --header-bg-color: #ECF0F3;
   --header-shadow-color: #C9CCCF;
   /* --main-bg-color: #ECF0F3;

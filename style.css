@@ -405,6 +405,14 @@ img.avatar {
 .card-icons{
   margin-top: auto;
   align-self: flex-end;
+  user-select: none;
+}
+.card-icons > svg {
+  transition: 0.2s;
+}
+.card-icons > svg:hover {
+  transform: scale(105%);
+  transition: 0.2s;
 }
 .card-button {
   stroke: var(--font-color-dark);
@@ -457,6 +465,12 @@ img.avatar {
   overflow: hidden;
   padding: 0 0 15px 0;
   color: var(--font-color-dark);
+}
+.announcement-list li h5 {
+  user-select: none;
+}
+.announcement-list li h5:hover {
+  cursor: pointer;
 }
 .announcement li p {
   margin-top: 9px;

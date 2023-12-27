@@ -111,7 +111,7 @@ img.avatar {
   transform: scale(99%);
   transition: 0.3s;
 }
-.sidebar-nav .li-divider {
+.sidebar-nav > .li-divider {
   margin: 15px 0 15px 12px;
   width: 90%;
   height: 3px;
@@ -366,17 +366,20 @@ img.avatar {
 }
 /* Cards */
 .card {
-  /* border: 2px solid yellow; */
   background-color: var(--font-color-light);
   max-width: 540px;
   padding: 24px 24px 12px 24px;
   border-radius: 1.5em;
-  /* border-left: solid 32px #353c50; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 
   box-shadow: -9px -9px 24px #ffffff, 9px 9px 24px #C1CCC7;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(101%);
+  transition: 0.3s;
 }
 .card > .card-title {
   padding: 0 0 0 0;
@@ -447,14 +450,14 @@ img.avatar {
 .announcement li p {
   margin-top: 9px;
 }
-.announcement .li-divider {
+.announcement-list .li-divider {
   margin: 0 0 15px -15px;
   width: 100%;
   height: 3px;
   border-radius: 2px;
   background-color: var(--font-color-light);
 
-  box-shadow: inset 1px 1px 1px var(--main-shadow-color), inset -1px -1px 3px #fff;
+  box-shadow: inset 1px 1px 1px #C1CCC7, inset -1px -1px 3px #fff;
 }
 
 /* TRENDING */

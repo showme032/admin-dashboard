@@ -414,7 +414,6 @@ img.avatar {
   margin-top: 30px;
   margin-left: 45px;
   width: fit-content;
-  padding: 8px;
   font-size: 1.5em;
   color: var(--font-color-dark);
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
@@ -429,8 +428,8 @@ img.avatar {
 }
 .card-container {
   /* flex: 1; */
-  margin-top: 3px;
-  padding: 10px 20px;
+  margin-top: 5px;
+  padding: 15px 20px;
   
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

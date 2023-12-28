@@ -394,6 +394,12 @@ img.avatar {
   grid-template: 1fr 1fr 1fr / 35% 35% 30%;
   transition: 0.3s;
 }
+.main-content:hover {
+  border-top: 1pt solid white;
+  border-left: 1pt solid white;
+  box-shadow: -9px -9px 24px 3px #fff;
+  transition: 0.3s;
+}
 /* PROJECTS */
 .project-area {
   grid-area: 1 / 1 / 4 / 3;
@@ -548,15 +554,16 @@ img.avatar {
 }
 .announcement li:hover {
   transform: scale(101%);
-  transition: scale 0.3s;
+  transition: transform 0.3s;
   text-shadow: 0 0 10px #C1CCC7, 1px 1px 2px #3c3c3c50;
   cursor: pointer;
 
   h5 {
-    transition: scale 0.3s;
+    transition: transform 0.3s;
     transform: scale(101%);
     color: var(--font-color-greed);
     text-shadow: 0 0 10px #C1CCC7, 2px 2px 3px #3c3c3c50;
+    /* z-index: 99; */
   }
 }
 .announcement-list li h5 {
@@ -642,7 +649,7 @@ img.avatar {
   p {
     text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
     transform: scale(103%);
-    transition: scale 0.3s;
+    transition: transform 0.3s;
   }
   .handle {
     transform: scale(103%);

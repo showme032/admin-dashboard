@@ -548,15 +548,15 @@ img.avatar {
 }
 .announcement li:hover {
   transform: scale(101%);
-  transition: 0.3s;
+  transition: scale 0.3s;
   text-shadow: 0 0 10px #C1CCC7, 1px 1px 2px #3c3c3c50;
   cursor: pointer;
 
   h5 {
-    transition: 0.3s;
+    transition: scale 0.3s;
     transform: scale(101%);
     color: var(--font-color-greed);
-    text-shadow: 0 0 10px #C1CCC7, 1px 1px 2px #3c3c3c50;
+    text-shadow: 0 0 10px #C1CCC7, 2px 2px 3px #3c3c3c50;
   }
 }
 .announcement-list li h5 {
@@ -641,11 +641,11 @@ img.avatar {
   }
   p {
     text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
-    transform: scale(105%);
-    transition: 0.3s;
+    transform: scale(103%);
+    transition: scale 0.3s;
   }
   .handle {
-    transform: scale(105%);
+    transform: scale(103%);
     transition: 0.3s;
     color: var(--font-color-greed);
   }

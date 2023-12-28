@@ -386,6 +386,8 @@ img.avatar {
   margin-left:4px;
   grid-area: 2 / 2 / 3 / 3;
   border-radius: 1.5em 0 0 0;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
 
   display: grid;
   grid-template: 1fr 1fr 1fr / 35% 35% 30%;

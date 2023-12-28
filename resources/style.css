@@ -386,11 +386,15 @@ img.avatar {
   margin-left:4px;
   grid-area: 2 / 2 / 3 / 3;
   border-radius: 1.5em 0 0 0;
-  border-top: 1px solid white;
-  border-left: 1px solid white;
+  border-top: 1pt solid white;
+  border-left: 1pt solid white;
+  box-shadow: -1px -1px 15px 3px #fff;
+  /* box-shadow: -9px -9px 24px #fff; */
+  z-index: 99;
 
   display: grid;
   grid-template: 1fr 1fr 1fr / 35% 35% 30%;
+  transition: 0.3s;
 }
 /* PROJECTS */
 .project-area {
@@ -400,6 +404,7 @@ img.avatar {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
+  transition: 0.3s;
 }
 .project-area > .content-title {
   margin-top: 30px;
@@ -413,7 +418,7 @@ img.avatar {
   transition: 0.3s;
 }
 .project-area > .content-title:hover {
-  transform: scale(102%);
+  transform: scale(103%);
   transition: 0.3s;
   color: var(--font-color-greed);
   cursor: pointer;
@@ -455,7 +460,7 @@ img.avatar {
   color: var(--font-color-greed);
   cursor: pointer;
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
-  transform: scale(101%);
+  transform: scale(102%);
   transition: 0.3s;
 }
 .card p {
@@ -517,8 +522,10 @@ img.avatar {
 .announcements-title:hover {
   color: var(--font-color-greed);
   cursor: pointer;
-  transform: scale(101%);
+  text-shadow: none;
+  transform: scale(102%);
   transition: 0.3s;
+  text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
 }
 .announcement {
   /* width: 80%; */

@@ -109,14 +109,14 @@ img.avatar {
   padding: 21px 21px 21px 15px;
   border-radius: 1.5em;
   box-shadow: -9px -9px 24px var(--sidebar-highlight-color), 9px 9px 24px var(--sidebar-shadow-color);
-  transition: 0.3s;
+  transition: 0.25s;
 
   position: sticky;
   top: -15px;
 }
 .sidebar-nav:hover {
   transform: scale(101%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .sidebar-nav > .li-divider {
   margin: 15px 0 15px 12px;
@@ -140,7 +140,7 @@ img.avatar {
 .nav-group li:hover {
   cursor: pointer;
   transform: scale(105%);
-  transition: 0.2s;
+  transition: 0.25s;
   svg {
     fill: var(--font-color-darker);
     filter: drop-shadow(0 0 15px var(--sidebar-shadow-color));
@@ -155,7 +155,7 @@ img.avatar {
   fill: var(--font-color-dark);
   width: 32px;
   height: 32px;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 .nav-group li a {
   margin-left: 5px;
@@ -164,7 +164,7 @@ img.avatar {
   font-weight: 600;
   color: var(--font-color-dark);
   user-select: none;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 
 
@@ -196,12 +196,12 @@ img.avatar {
   padding-top: 15px;
   align-items: center;
   position: relative;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .search-bar:hover,
 .search-bar:focus {
   transform: scale(101%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .search-icon {
   position: absolute;
@@ -228,13 +228,13 @@ img.avatar {
 
   border: 3px solid var(--header-bg-color);
   box-shadow: -9px -9px 24px #ffffff,9px 9px 24px var(--header-shadow-color), inset 1px 1px 3px var(--header-shadow-color), inset -1px -1px 3px #ffffff;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .search-input:hover, 
 .search-input:focus {
   outline: solid 1px white;
   /* transform: scale(103%); */
-  transition: 0.3s;
+  transition: 0.25s;
   
 }
 /* NOTIFICATIONS & CO */
@@ -264,7 +264,7 @@ img.avatar {
 }
 .notification-icon:hover {
   transform: scale(105%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .notification-bell {
   width: 24px;
@@ -392,13 +392,13 @@ img.avatar {
 
   display: grid;
   grid-template: 1fr 1fr 1fr / 35% 35% 30%;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .main-content:hover {
   border-top: 1pt solid white;
   border-left: 1pt solid white;
   box-shadow: -9px -9px 24px 3px #fff;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 /* PROJECTS */
 .project-area {
@@ -408,7 +408,7 @@ img.avatar {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .project-area > .content-title {
   margin-top: 30px;
@@ -418,11 +418,11 @@ img.avatar {
   color: var(--font-color-dark);
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
   z-index: 3;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .project-area > .content-title:hover {
   transform: scale(103%);
-  transition: 0.3s;
+  transition: 0.25s;
   color: var(--font-color-greed);
   cursor: pointer;
 }
@@ -447,24 +447,25 @@ img.avatar {
   justify-content: flex-start;
 
   box-shadow: -9px -9px 24px #ffffff, 9px 9px 24px #C1CCC7;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .card:hover {
   transform: scale(101%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .card > .card-title {
   padding: 0 15px 0 0;
   width: fit-content;
   font-weight: 600;
   color: var(--font-color-dark);
+  transition: 0.25s
 }
 .card > .card-title:hover {
   color: var(--font-color-greed);
   cursor: pointer;
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
   transform: scale(102%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .card p {
   padding: 15px 0 0 0;
@@ -477,12 +478,12 @@ img.avatar {
 }
 .card-icons > svg {
   padding-left: 3px;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 .card-icons > svg:hover {
   filter: drop-shadow(2px 2px 3px #3c3c3c70);
   transform: scale(105%);
-  transition: 0.2s;
+  transition: 0.25s;
 
 }
 .card-button {
@@ -520,14 +521,14 @@ img.avatar {
   width: fit-content;
 
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .announcements-title:hover {
   color: var(--font-color-greed);
   cursor: pointer;
   text-shadow: none;
   transform: scale(102%);
-  transition: 0.3s;
+  transition: 0.25s;
   text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
 }
 .announcement {
@@ -549,16 +550,16 @@ img.avatar {
   overflow: hidden;
   padding: 0 0 15px 0;
   color: var(--font-color-dark);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .announcement li:hover {
   transform: scale(101%);
-  transition: transform 0.3s;
+  transition: transform 0.25s;
   text-shadow: 0 0 10px #C1CCC7, 1px 1px 2px #3c3c3c50;
   cursor: pointer;
 
   h5 {
-    transition: transform 0.3s;
+    transition: transform 0.25s;
     transform: scale(101%);
     color: var(--font-color-greed);
     text-shadow: 0 0 10px #C1CCC7, 2px 2px 3px #3c3c3c50;
@@ -568,7 +569,7 @@ img.avatar {
 .announcement-list li h5 {
   padding-left: 3px;
   user-select: none;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .announcement li p {
   margin-top: 9px;
@@ -599,13 +600,13 @@ img.avatar {
 
   text-shadow: 0 0 10px #C1CCC7, 6px 6px 6px #3c3c3c50;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .trending-title:hover {
   color: var(--font-color-greed);
   cursor: pointer;
   transform: scale(102%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .trends {
   padding: 18px 24px 12px max(18px, 5%);
@@ -613,13 +614,13 @@ img.avatar {
   grid-area: 1 / 3 / 2 / 4;
   background-color: var(--font-color-light);
   margin: 20px;
-  transition: 0.3s;
+  transition: 0.25s;
 
   box-shadow: -9px -9px 24px #ffffff, 9px 9px 24px #C1CCC7;
 }
 .trends:hover {
   transform: scale(101%);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .trend {
   display: flex;
@@ -629,18 +630,18 @@ img.avatar {
   padding: 0 16px 0 0;
 
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.25s;
   
   p {
-    transition: 0.3s;
+    transition: 0.25s;
   }
   .handle {
-    transition: 0.3s;
+    transition: 0.25s;
   }
 }
 .trend:hover {
   transform: scale(103%);
-  transition: 0.3s;
+  transition: 0.25s;
 
   img {
     box-shadow: 3px 3px 6px #3c3c3c30, 5px 5px 12px #3c3c3c50;
@@ -648,11 +649,11 @@ img.avatar {
   p {
     text-shadow: 0 0 10px #C1CCC7, 5px 5px 6px #3c3c3c50;
     transform: scale(103%);
-    transition: transform 0.3s;
+    transition: transform 0.25s;
   }
   .handle {
     transform: scale(103%);
-    transition: 0.3s;
+    transition: 0.25s;
     color: var(--font-color-greed);
   }
 }

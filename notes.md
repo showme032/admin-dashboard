@@ -1,3 +1,0 @@
-- Add dynamic font size
-- Add dynamic webpage structure
-- Add Grainy texture / shadows

@@ -115,8 +115,8 @@ img.avatar {
   top: -15px;
 }
 .sidebar-nav:hover {
-  transform: scale(101%);
   transition: 0.25s;
+  
 }
 .sidebar-nav > .li-divider {
   margin: 15px 0 15px 12px;
@@ -124,6 +124,7 @@ img.avatar {
   height: 3px;
   border-radius: 2px;
   background-color: var(--sidebar-bg-color);
+  
 
   box-shadow: inset 1px 1px 1px var(--sidebar-shadow-color), inset -1px -1px 3px var(--sidebar-highlight-color);
 }
@@ -136,6 +137,7 @@ img.avatar {
   align-items: center;
   /* margin-left: 35px; */
   margin-bottom: 0px;
+  transition: 0.25s;
 }
 .nav-group li:hover {
   cursor: pointer;
@@ -148,7 +150,8 @@ img.avatar {
   }
   a {
     color: var(--font-color-darker);
-    text-shadow: 0 0 15px var(--sidebar-shadow-color), 0 5px 6px var(--sidebar-shadow-color);
+    /* text-shadow: 0 0 15px var(--sidebar-shadow-color), 0 5px 6px var(--sidebar-shadow-color); */
+    text-shadow: 0 0 15px var(--sidebar-shadow-color), 5px 5px 8px #3c3c3c80;
   }
 }
 .nav-group li svg {
